@@ -8,10 +8,6 @@ public class Cajera extends Thread {
 
     private long initialTime;
 
-
-    public Cajera() {
-    }
-
     public Cajera(String nombre, Cliente cliente, long initialTime) {
         this.nombre = nombre;
         this.cliente = cliente;
